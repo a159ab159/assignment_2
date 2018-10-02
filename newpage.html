@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="src/newpage.js"></script>
+    <link rel=stylesheet type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body onload="ShowTime()">
+    <div class ="col-lg-12" style="background-color:powderblue;">
+    <div>
+        Here is <span>a span element</span> which is orange and this is css class.
+    </div>
+
+    <div class="extra" style="color:green">
+        Here is <span>a span element</span> which is green not orange, because it inherits from its parent.
+    </div>
+
+    <div style="color:purple">
+        Here is <span>a span element</span> which is orange, as span elements are set to be.
+    </div>
+</div>
+
+    <div id="showbox" class="col-lg-12" style="background-color:lavender;"></div>
+    <div id="test_node" class="col-lg-12" style="background-color:greenyellow;"></div>
+
+    </div>
+    <div class="col-lg-12">
+        <h3>photo player (using array and function() by javascript) </h3>
+        <div id="pitt_photo"></div>
+    </div>
+    <script>
+        var para = document.createElement("h1");
+        var node = document.createTextNode("This is created by a node.");
+        para.appendChild(node);
+        var element = document.getElementById("test_node");
+        element.appendChild(para);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+html,  body {
+    height: 100%
+}  
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    
+}
+#navigator2{
+
+}
+h1.small_header{
+    font-size:5vw;
+}
+h1.personal_info{
+    font-size:5vw;
+    text-align:center;
+}
+h1.photo_header{
+    font-size:5vw;
+    text-align:center;
+}
+h1.board_header{
+    font-size:5vw;
+    text-align:center;
+}
+h1.contact_header{
+    font-size:5vw;
+    text-align:center;
+}
+
+h1.cv_header{
+    font-size:5vw;
+    text-align:center;
+}
+h2.board_intro{
+    font-size:4vw;
+    text-align:center;
+}
+h1.photo{
+    font-size:5vw;
+    text-align:center;
+}
+p.introduction{
+    font-size:2vw;
+    
+}
+h1.contact_intro{
+    font-size:4vw;
+    text-align:center;
+}
+p.contact_info{
+    font-size:2vw;
+}
+h1.cv_intro{
+    font-size:4vw;
+    text-align:center;
+}
+#nav{
+    line-height:30px;
+    background-color:silver;
+    height:100%;
+    float:left;
+    padding:5px;
+    
+}
+#nav li{
+    list-style-type: none;
+}
+
+#section {
+  
+    height: 100%;
+    float:right;
+    padding:10px;
+    list-style-type: none;
+   
+   
+}
+#photo_pos{
+  
+}
+img.center{
+    display: block;
+   margin:auto;
+}
+
+#section li{
+    list-style-type: none;
+}
+#container{
+    float: left;
+    width:500px;
+    height:500px;
+}
+#sendMessage{
+    width:500px;
+    height: 50px;
+    line-height:50px;
+    margin-bottom:30px;
+            }
+#content{
+   
+    width:500px;
+    height: 400px;
+    border:1px solid #808080;
+    overflow: scroll;
+}
+#messColumn{width:300px;}
+
+ span {
+                color: orange;
+                border: 1px solid black;
+            }
+            .extra span {
+                color: inherit;
+            }
